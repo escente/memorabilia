@@ -412,7 +412,7 @@ h2{
 }
 
 .gallery-item{
-    width:31%;
+    width:31.2%;
 	float:left;
     overflow:hidden;
     margin-bottom:2.5vmax;
@@ -559,7 +559,7 @@ textarea{
 
 
 
-button, input[type="button"], input[type="reset"], input[type="submit"]{
+input[type="submit"]{
 	display:inline-block;
 	font-size:0.8em;
     letter-spacing: 1.5;
@@ -594,3 +594,16 @@ footer p{
     justify-content: center;
     align-items: center;
 }
+
+.gallery-nav {
+   
+    text-align: center;
+    cursor:pointer; 
+}
+
+.gallery-nav a{
+     font-family:'Quicksand',sans-serif;
+    padding:20px;
+    background-color: rgba(0,0,0,0.05)
+}
+
