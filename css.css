@@ -507,13 +507,14 @@ div.mfp-title{
 }
 
 #creation-menu{
+    align-content: center;
 	line-height:1.5;
 }
 
 #creation-menu a{
-	display:block;
 	letter-spacing:1px;
 	font-size:1.1em; 
+    line-height: 2;
 	
 }
 
@@ -547,9 +548,12 @@ hr.grey{
 
 
 textarea{
-	width:100%;
+    font-family:'Open Sans', sans-serif;
+	width:90%;
+    max-width:600px;
+    border-collapse: :silver;
 	padding:6px 10px;
-  resize: none;
+    resize: none;
 	overflow-y:auto;
 }
 
@@ -557,8 +561,10 @@ textarea{
 
 button, input[type="button"], input[type="reset"], input[type="submit"]{
 	display:inline-block;
-	font-size:0.9em;
-	font-family:"Quicksand";
+	font-size:0.8em;
+    letter-spacing: 1.5;
+	font-family:"Open Sans", sans-serif;
+    border-radius: 6px;
 	padding:10px;
 	margin:10px;
 	
@@ -581,3 +587,10 @@ footer p{
 	cursor:default;
 }
 
+
+.guest-form {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
