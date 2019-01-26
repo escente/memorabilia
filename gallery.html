@@ -12,7 +12,7 @@
     <link rel="icon" href="favicon.ico">
     
    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-     <script type="text/javascript" src="js/imagesloaded.js"></script>
+     <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="js/magnific-popup.js"></script>    
     
@@ -22,38 +22,36 @@
 
 <body>
 
-					<nav class="page-nav">
-						<div id="home-link">
-				<a href="index.html"><i class="fas fa-home"></i></a>
-			</div>
-					</nav>
-<main>    
-    <h1>Gallery</h1>
-    <div class="text"><p>blahblahblah</p></div>
-    <div class="gutter-sizer"></div>
+    <nav class="page-nav">
+        <div id="home-link">
+            <a href="index.html"><i class="fas fa-home"></i></a>
+        </div>
+    </nav>
     
-    
-    <div class="gallery">
-        
-        <!-- 
-        <a class="gallery-item" href="images/gallery/.jpg" caption=" " date=" "><div class='date'>Dec 2011</div><img src="images/gallery/small/.jpg" /></a>
--->
-        <a class="gallery-item" href="images/gallery/ladies.jpg" caption="captioncaptioncaption" date="June 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/ladies.jpg" /></a>
-       <a class="gallery-item" href="images/gallery/cry1.jpg" caption="captioncaptioncaption" date="April 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/cry1.jpg" /></a>
-        <a class="gallery-item" href="images/gallery/blowing.jpg" caption="captioncaptioncaption" date="Feb 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/blowing.jpg" /></a>
-        <a class="gallery-item" href="images/gallery/agnst.jpg" caption="captioncaptioncaption" date="March 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/agnst.jpg" /></a>
-        <a class="gallery-item" href="images/gallery/+%20birds.jpg" caption="captioncaptioncaption" date="Dec 2011"><div class='date'>Dec 2011</div><img src="images/gallery/small/+%20birds.jpg" /></a>
-</div>
-</main>
-    
+    <main>    
+        <h1>Gallery</h1>
+        <div class="text"><p>blahblahblah</p></div>
+
+        <div class="gallery">
+            <div class="gutter-sizer"> </div>
+            <!--    <a class="gallery-item" href="images/gallery/.jpg" caption=" " date=" "><div class='date'>Dec 2011</div><img src="images/gallery/small/.jpg" /></a>   -->
+                <a class="gallery-item" href="images/gallery/ladies.jpg" caption="captioncaptioncaption" date="June 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/ladies.jpg" /></a>
+               <a class="gallery-item" href="images/gallery/cry1.jpg" caption="captioncaptioncaption" date="April 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/cry1.jpg" /></a>
+                <a class="gallery-item" href="images/gallery/blowing.jpg" caption="captioncaptioncaption" date="Feb 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/blowing.jpg" /></a>
+                <a class="gallery-item" href="images/gallery/agnst.jpg" caption="captioncaptioncaption" date="March 2012"><div class='date'>Dec 2011</div><img src="images/gallery/small/agnst.jpg" /></a>
+                <a class="gallery-item" href="images/gallery/+%20birds.jpg" caption="captioncaptioncaption" date="Dec 2011"><div class='date'>Dec 2011</div><img src="images/gallery/small/+%20birds.jpg" /></a>
+    </div>
+
+    </main>
+
         
 <script>
 $(document).ready(function() {
             
     ///init masonry
-var $grid = $('.gallery').masonry({
-  itemSelector: '.gallery-item',
-    gutter:'.gutter-sizer',
+var $grid = $('div.gallery').masonry({
+  itemSelector: 'a.gallery-item',
+    gutter:'div.gutter-sizer'
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress( function() {
