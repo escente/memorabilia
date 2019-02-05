@@ -377,30 +377,6 @@ h2{
 
 
 
-.image-date{
-	display:-webkit-flex;
-	display:flex;
-	-webkit-flex-wrap:wrap;
-	flex-wrap:wrap;
-	-webkit-justify-content:center;
-	justify-content:center;
-	-webkit-align-items:center;
-	align-items:center;
-	
-	position:absolute;
-	height:100%;
-	width:100%;
-	padding:20%;
-	letter-spacing:1.2px;
-	font-weight:bold;
-	color:white;
-	text-transform:uppercase;
-	z-index:10;
-	cursor:default;
-	transition:0.5s;
-}
-
-
 .gallery{
 	width:90%;
     padding:100px 0;
