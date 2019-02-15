@@ -14,7 +14,8 @@
    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
      <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/magnific-popup.js"></script>    
+    <script type="text/javascript" src="js/magnific-popup.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
     
     <title>Gallery - Memorabilia</title>
     
@@ -77,36 +78,7 @@
         
 <script>
 $(document).ready(function() {
-    ///init masonry
-var $grid = $('div.gallery').masonry({
-  itemSelector: 'a.gallery-item',
-    gutter:'div.gutter-sizer',
-    stagger:30
-});
-    
-
-    
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});  
-
-    //// //magnific popup
-$('.gallery').magnificPopup({
-    delegate: '.gallery-item',
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    image: {
-        verticalFit: true,
-        titleSrc: 'caption',
-        cursor:null
-    },
-    zoom: {
-        enabled: true,
-        duration: 250 // don't foget to change the duration also in CSS
-    }
-});
+   gallery();
     });
   
 </script>
