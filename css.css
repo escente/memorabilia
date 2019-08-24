@@ -388,19 +388,19 @@ h2{
 }
 
 .gallery-item{
-    width:31.2%;
+    width:31%;
 	float:left;
     overflow:hidden;
     margin-bottom:2.5vmax;
 }
 
-@media screen and (min-width: 571px) and (max-width: 960px) {
+@media screen and (min-width: 561px) and (max-width: 1080px) {
 .gallery-item{
 		width:46%;
 	}
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 560px) {
 .gallery-item{
 		width:100%;
 	}
