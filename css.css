@@ -79,12 +79,10 @@ header{
 .site-title{
 	margin:0;
 	margin-top:110px;
-	margin-bottom:5px;
 	font-size:5vmax;
 	text-transform:capitalize;
 	font-family:'Spectral SC', serif;
-	letter-spacing:1.5px;
-	line-height:1;
+	line-height:0.9;
 	font-weight:normal;
 	color:#331614;
 }
@@ -242,6 +240,7 @@ main{
 .main-index a{
 	width:200px;
 	height:90px;
+    padding: 16px 20px;
 	margin:14px;	
 	display:-webkit-flex;
 	display:flex;
@@ -275,7 +274,7 @@ main{
 }
 
 .small{
-	font-size:0.8em;
+	font-size:0.95em;
 }
 
 
@@ -511,7 +510,8 @@ div.mfp-title{
 
 hr.grey{
 	opacity:0.15;
-	width:80%;
+	width:69%;
+    max-width:700px;
 	margin:80px auto;
 }
 
