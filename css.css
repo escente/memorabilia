@@ -353,13 +353,7 @@ h3{
 	letter-spacing:1px;
 }
 
-h3{
-	font-family:'Lora', serif;
-	text-align:center;
-	letter-spacing:1px;
-	margin-top:100px;
-	margin-bottom:20px;
-}
+
 
 .centred{
     text-align: center;
@@ -610,15 +604,23 @@ footer p{
     background-color: rgba(0,0,0,0.05)
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.dorimevid {
+    width:90%;
+    max-width: 430px;
+    margin:auto;
+    margin-bottom: 30vh;
+}
 
 #dorime {
     display:block;
-    width:420px;
     margin:auto;
 }
+
+
     
 
-.dorimevid {
-    margin:0 auto 30vh auto;
-    padding:20px;
-}
