@@ -351,6 +351,7 @@ h3{
     font-size: 1.5em;
 	text-align:center;
 	letter-spacing:1px;
+    padding:25px;
 }
 
 
@@ -615,12 +616,6 @@ video {
     margin:auto;
     margin-bottom: 30vh;
 }
-
-#dorime {
-    display:block;
-    margin:auto;
-}
-
 
     
 
