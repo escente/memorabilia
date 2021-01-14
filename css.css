@@ -300,6 +300,7 @@ div.blocks{
 	align-items:center;
 	width:150px;
 	height:150px;
+    flex-grow: 1;
 	line-height:200%;
 	letter-spacing:1px;
 	color:grey;
