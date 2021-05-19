@@ -237,7 +237,7 @@ main {
 
     max-width: 690px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -246,21 +246,22 @@ main {
 
 .main-index a {
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
     min-width: 80px;
     height: 80px;
-    padding: 24px;
-    margin: 14px;
+    padding: 24px 36px;
+    margin: 12px;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-    flex-grow: 1;
     text-transform: uppercase;
     letter-spacing: 1.3px;
     color: grey;
     border: 0.6px solid lightgrey;
+    border-radius: 4px;
 }
 
 .main-index a:hover {
@@ -292,8 +293,8 @@ div.blocks {
 
     max-width: 750px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -312,6 +313,7 @@ div.blocks {
     color: grey;
     line-height: 2.6em;
     border: 0.6px solid lightgrey;
+    border-radius: 4px;
     margin: 8px;
 
 }
@@ -531,7 +533,7 @@ div.mfp-title {
     padding: 10px 18px;
     margin: 10px;
     border: solid 1px lightgray;
-    border-radius: 10px;
+    border-radius: 16px;
 
 }
 
