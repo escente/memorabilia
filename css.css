@@ -646,3 +646,8 @@ video {
     margin: auto;
     margin-bottom: 30vh;
 }
+
+.centre {
+    display:block;
+    margin:auto;
+}
