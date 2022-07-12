@@ -408,6 +408,7 @@ p {
 
 
 .gallery {
+    display: none;
     width: 90%;
     padding: 100px 0;
     margin: auto;
@@ -648,6 +649,6 @@ video {
 }
 
 .centre {
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
